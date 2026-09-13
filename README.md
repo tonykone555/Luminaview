@@ -1,10 +1,23 @@
-# Lumina View
+# Lumina View Live
 
-Lumina View now lives inside the wider Lumina ecosystem rather than replacing it.
+Production-oriented static frontend connected to the existing Lumina Supabase backend.
 
-- `/` — Lumina ecosystem homepage with Fashion, Fitness, Hair, Skin, Smile, Commerce, View and Partner.
-- `/view/` — Lumina View AI visibility, competitor intelligence, buyer-intent analysis, Prospect Engine, report and outreach workflow.
+## Live capabilities
+- Supabase Auth with first-user owner bootstrap
+- RLS-protected internal View access
+- Live merchant graph
+- CSV merchant import
+- Merchant 360
+- Evidence-backed scoring through `view-ops`
+- Personalized outreach drafting
+- Human approval queue
+- Resend delivery hook (activates only when server-side Resend secrets are configured)
+- Booking feed from the existing Lumina website
+- Partnerships, catalog, revenue, jobs and source registry views
+- View AI command layer
+- Shared demo + booking settings
+- AI Visibility prospect engine with competitor visibility, buyer-intent gaps, report structure and outreach preview
 
-The homepage is based on the previous Lumina ecosystem design and reuses its visual language and media. Legacy niche modules currently link to the existing Lumina ecosystem deployment while Lumina View itself lives directly in this repository.
+Do not place service-role keys or email provider secrets in this frontend.
 
-Real cross-platform AI visibility checks still require compliant provider/search connections before live competitor evidence can populate automatically.
+The AI Visibility screen only treats competitor data as real after evidence has been captured from connected providers. Example data is explicitly labeled.
