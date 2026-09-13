@@ -1,19 +1,10 @@
 # Lumina View
 
-This repository now uses the existing Lumina ecosystem as its base instead of treating Lumina View as a standalone replacement.
+Lumina View now lives inside the wider Lumina ecosystem rather than replacing it.
 
-## Structure
-- `/` — Lumina ecosystem homepage with Fashion, Fitness, Hair, Skin, Smile, Commerce, View and Partner modules.
-- `/view/` — Lumina View AI visibility and competitor-intelligence product.
+- `/` — Lumina ecosystem homepage with Fashion, Fitness, Hair, Skin, Smile, Commerce, View and Partner.
+- `/view/` — Lumina View AI visibility, competitor intelligence, buyer-intent analysis, Prospect Engine, report and outreach workflow.
 
-## Lumina View includes
-- AI Visibility Score presentation
-- competitor share-of-visibility
-- buyer-intent query analysis
-- done-for-you implementation packaging
-- Prospect Engine preview builder
-- client report structure
-- personalized outreach generator
-- safeguards against invented competitor or ranking claims
+The homepage is based on the previous Lumina ecosystem design and reuses its visual language and media. Legacy niche modules currently link to the existing Lumina ecosystem deployment while Lumina View itself lives directly in this repository.
 
-The legacy module pages and media are currently linked to the existing Lumina ecosystem deployment while the View product is hosted directly in this repository. Real cross-platform visibility checks still require compliant data/provider connections before live competitor evidence can populate automatically.
+Real cross-platform AI visibility checks still require compliant provider/search connections before live competitor evidence can populate automatically.
